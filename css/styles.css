@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,500;1,100;1,200&display=swap');
+
+
+*{ 
+        box-sizing: border-box;    
+        line-height: 2;
+        font-family: 'Raleway', sans-serif;
+        line-height: 2;
+}
+
+h1{
+   text-align: center;
+   padding-top: 1rem;
+   font-size: 2rem;
+   padding-bottom: 1rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+.titulo{
+color:#037bc0;
+text-align: center;
+
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul li {
+    list-style: none;
+    font-weight: 400;
+}
+
+header ul li a{
+    text-decoration: none;
+    color:#000;
+}
+
+.contenedor-navegacion , footer{
+    border-top: 1px solid #a0a0a0;
+}
+
+
+
+
+.imagen-banner{
+    width: 100%;
+
+}
+
+.categoria{
+    width: 350px;
+    text-align: center;
+    text-decoration: none;
+   
+}
+
+.categoria a:hover{
+    background-color: #037bc0;
+    color:white;
+}
+
+.categoria a{
+    display: block;
+    text-decoration: none;
+    color:#000;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.contenedor-imagen{
+    height: 350px;
+    overflow: hidden;
+}
+
+.contenedor-categorias{
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ancho-pagina{
+    width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.categoria img {
+    margin: -10px;
+}
+
+.contenedor-sobre-nosotros{
+    display: flex;
+}
+
+
+.contenedor-sobre-nosotros img {
+    width: 650px;
+  
+} 
+
+.texto-sobre-nosotros{
+   
+    background-color: #037bc0;
+    color:white;
+}
+
+.texto-sobre-nosotros{
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-bottom: 5rem;
+}
+
+.texto-sobre-nosotros h2{
+    text-align: left;
+}
+
+.texto-sobre-nosotros p {
+    font-size: 1rem;
+    padding-right: 300px;
+} 
+
+.producto-una-vista{
+    display: flex;
+  
+}
+
+.producto-dos-vistas{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-dos-productos{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-tres-productos{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.texto-producto{
+    background-color: #037bc0;
+    color:white;
+
+  
+}
+
+
+
+
+.texto-producto h3 , p {
+    text-align: center;
+}
+
+.contenedor-imagen-productos{
+        width: 1400px;
+        height: 350px;
+}
+
+.contenedor-imagen-productos img {
+    height: 100%;
+}
+
+
+.monto{
+    font-size: 2rem;
+    
+}
+.boton-producto{
+    display: block;
+    background-color: #8cbc00;
+    border: 0;
+    color:white;
+    text-transform: uppercase;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align:center;  
+}
+
+.boton-leer{
+
+    background-color: #8cbc00;
+    border: 0;
+    color:white;
+    text-transform: uppercase;
+    width: 40%;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align:center;
+}
+
+
+
+.boton-producto:hover{
+    background-color: #769c02;
+    cursor: pointer;
+}
+
+
+
+.contenedor-dos-productos .producto {
+    width: 540px;
+}
+
+.margen-texto-producto{
+    margin-top: -30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+.contenedor-tres-productos{
+   
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.contenedor-tres-productos .producto{
+    width: 350px;
+}
+
+/* .contenedor-productos{
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+footer{
+    margin-top: 50px;
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+footer ul li {
+    list-style: none;
+}
+
+.categorias-f, .nosotros, .soporte, a{
+
+        text-decoration: none;
+        color:#000;
+        list-style: none;
+        text-align: left;
+}
+
+.categorias-f ul {
+    padding: 0;
+}
+
+
+.principal-sobre-nosotros h2{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.contenedor-nosotros{
+    display: flex;
+    justify-content:space-between;
+}
+
+.contenedor-nosotros img{
+  width: 500px;
+  height: 430px;
+  margin-right: 100px;
+}
+
+.texto-nosotros{
+    padding-top: 50px;
+    font-size: 15px;
+    text-align: left;
+}
+
+.texto-nosotros .parrafo-2{
+    padding-top: 50px;
+    text-align: left;
+}
+
+.blog{
+    display: flex;
+}
+
+.articulo-blog{
+    width: 600px;
+    margin-right: 50px;
+}
+.negrita{
+    color:#000;
+}
+
+.articulo-blog img {
+    height: 350px;
+}
+
+
+.introduccion{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.introduccion p{
+    text-align: left;
+}
+
+.parrafo-inicio ,.parrafo-final   span {
+    color:#037bc0;
+}
+
+
+.parrafo-final{
+    text-align:left;
+}
+
+
+.texto-articulo p{
+    text-align: left;
+}
+
+.otras-entradas ul li  {
+    list-style: none;
+}
+
+.titulo-3{
+    text-align: center;
+}
+
+.contenedor-3-imagenes{
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    margin-bottom: 30px;
+
+}
+
+.contenedor-3-imagenes img {
+
+    width:350px;
+    height: 350px;
+    /* hace que la imagen cuadre y lo que sobra los recortará entra el pedaoz de imagen del contenedor */
+    object-fit: cover;
+}
+
+/* .contenedor-imagen{
+    width: 360px;
+    height:350px;
+} */
+/* 
+.contenedor-imagen img{
+    width: 360px;
+    height: 300px;
+} */
+
+form {
+    margin: 0 auto;
+}
+
+.tus-datos, .pais, .informacion-extra{
+    width: 550px;
+    margin: 0 auto;
+}
+
+legend{
+
+ background-color: #005485;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+
+
+#nombre{
+    margin-left: 22px;
+    width: 80%;
+}
+
+#asunto{
+    margin-left: 27px;
+    width: 80%; 
+}
+
+#email{
+    margin-left: 34px;
+    width: 80%; 
+}
+
+#telefono{
+    margin-left: 14px;
+    width: 80%; 
+}
+
+#mensaje{
+    text-align: center;
+}
+
+
+label .label-mensaje{
+    text-align: center;
+}
+
+textarea {
+    text-align: center;
+    width: 80%;
+}
+
+#pais{
+    width: 80%;
+    margin-left: 24px;
+}
+
+#cliente{
+    margin-left: 82px;
+}
+
+
+#proveedor{
+    margin-left: 60px;
+}
+
+#categorias{
+     width: 60%;
+}
+
+.boton-enviar-producto{
+    
+    background-color: #8cbc00;
+    border: 0;
+    color:white;
+    text-transform: uppercase;
+    height: 50px;
+    font-size: 15px;
+    margin-left: 400px;
+}
+
+.campo{
+    display: flex;
+    justify-content: space-between;
+}

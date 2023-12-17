@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Tienda Muebles</h1>
-        <hr>
+      <h1>Tienda <span class="titulo">Muebles</span></h1>
+      
         <!--Menú de Navegación-->
-        <nav>
+        <div class="contenedor-navegacion ancho-pagina">
+          <nav class="contenedor">
           <ul>
             <li><a href="index.html">Inicio</a></li>
             <li><a href="nosotros.html">Nosotros</a></li>
@@ -20,10 +22,11 @@
             <li><a href="contacto.html">Contacto</a></li>
           </ul>
         </nav> 
+      </div>
+      
       </header>
-        
-      <main class="blog">
-        <h1>Nuestro Blog</h1>
+      <h1>Nuestro Blog</h1>
+      <main class="blog ancho-pagina">
         <!-- Seccion Blog-->
             <section class="contenedor-blog">
         <!-- Articulo 01 -->
@@ -32,8 +35,8 @@
               <img src="img/nosotros.jpg"/ alt="nosotros">
               <div class="informacion-articulo">
                   <div class="introduccion">
-                    <p>Fecha<span><strong> 22 de Octubre 2023</strong></span></p>
-                    <p>Escrito por:<strong><span> TiendaMueble</span></strong> </p>
+                    <p class="parrafo-inicio"><span><strong class="negrita">fecha</strong><span> 22 de Octubre 2023</span></span></p>
+                    <p class="parrafo-final"><strong class="negrita">Escrito por:<span> TiendaMueble</span></strong> </p>
                   </div>
                   <div class="texto-articulo">
                     <p>
@@ -46,17 +49,20 @@
                   <button class="boton-leer">LEER</button>
               </div>
               </article>
-              <br>
-              <hr>
+             
         <!-- Articulo 2 -->
               <article class="articulo-blog">
+                <br>
+                <hr>
                 <h2>Guia de Colores</h2>
                 <img src="img/nosotros.jpg"/ alt="nosotros">
                 <div class="informacion-articulo">
-                    <div class="introduccion">
-                      <p>Fecha<span><strong> 22 de Octubre 2023</strong></span></p>
-                      <p>Escrito por:<strong><span> TiendaMueble</span></strong> </p>
-                    </div>
+                  <div class="introduccion">
+                    <p class="parrafo-inicio"><span><strong class="negrita">fecha</strong><span> 22 de Octubre 2023</span></span></p>
+                    <p class="parrafo-final"><strong class="negrita">Escrito por:<span> TiendaMueble</span></strong> </p>
+                  </div>
+
+                  
                     <div class="texto-articulo">
                       <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium id numquam ducimus alias commodi eveniet, impedit amet! Quidem et tempore obcaecati vitae voluptatibus ipsam? Quae repudiandae sequi quas numquam nam. 
